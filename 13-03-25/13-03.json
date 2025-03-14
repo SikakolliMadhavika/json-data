@@ -1,0 +1,76 @@
+{
+  "Students": [
+    {
+      "id": "69ef",
+      "Name": "Madhavika",
+      "PhoneNo": "1234567890",
+      "Address": "KPHB",
+      "City": "Hyderabad",
+      "State": "Telangana"
+    },
+    {
+      "id": "b101",
+      "Name": "",
+      "PhoneNo": "",
+      "Address": "",
+      "City": "",
+      "State": ""
+    },
+    {
+      "id": "0653",
+      "Name": "Ramya",
+      "PhoneNo": "1234567890",
+      "Address": "KPHB",
+      "City": "Hyderabad",
+      "State": "Telangana"
+    },
+    {
+      "id": "d630",
+      "Name": "Rani",
+      "PhoneNo": "1234567890",
+      "Address": "KPHB",
+      "City": "Hyderabad",
+      "State": "Telangana"
+    },
+    {
+      "id": "c4bb",
+      "Name": "Sivasree",
+      "PhoneNo": "1234567890",
+      "Address": "KPHB",
+      "City": "Hyderabad",
+      "State": "Telangana"
+    },
+    {
+      "id": "3620",
+      "Name": "Poorna",
+      "PhoneNo": "1234567890",
+      "Address": "KPHB",
+      "City": "Hyderabad",
+      "State": "Telangana"
+    },
+    {
+      "id": "9421",
+      "Name": "Manisha",
+      "PhoneNo": "1234567890",
+      "Address": "KPHB",
+      "City": "Hyderabad",
+      "State": "Telangana"
+    },
+    {
+      "id": "4329",
+      "Name": "Pravallika",
+      "PhoneNo": "1234567890",
+      "Address": "KPHB",
+      "City": "Hyderabad",
+      "State": "Telangana"
+    },
+    {
+      "id": "94ba",
+      "Name": "Madhu",
+      "PhoneNo": "1234567890",
+      "Address": "KPHB",
+      "City": "Hyderabad",
+      "State": "Telangana"
+    }
+  ]
+}
