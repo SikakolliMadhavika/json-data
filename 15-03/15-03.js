@@ -3,9 +3,7 @@ container.className = "container"
 function getData(){
     fetch("https://fakestoreapi.com/products")
         .then(res => res.json())
-        .then(data => {
-            displayData(data)
-        })
+        .then(data => displayData(data))
         .catch(err => console.error(err));
 }
 function displayData(data){
@@ -16,11 +14,12 @@ function displayData(data){
         `
         <img class = "image" src = "${obj.image}">
         <p class = "title"><b>${obj.title}</b> - <span><b>${obj.price}</b></span></p>
-        <p class = "category" >${obj.category}</p>
+        <p class = "category" ><b><i>${obj.category}</i></b></p>
         <p class = "rating">${obj.rating.rate}⭐</p>
         `
-        container.appendChild(item)  
+        container.appendChild(item);  
     }
-    document.body.appendChild(container)
+    document.body.appendChild(container);
+    document.querySelector(".loader").remove();
 }
 getData()
