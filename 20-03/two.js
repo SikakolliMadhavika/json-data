@@ -35,6 +35,7 @@ function displayData(arr){
         <p><i>Released Year :</i><b> ${obj.Released_Year}</b></p>
         `;
         container.appendChild(item);
+        document.querySelector(".loader").remove();
     }
 }
 

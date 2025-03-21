@@ -32,6 +32,7 @@ function displayData(arr){
         <p><b>Source :</b><i>${obj.source}</i></p>
         `;
         container.appendChild(item);
+        document.querySelector(".loader").remove();
     }   
 }
 getJobData();
