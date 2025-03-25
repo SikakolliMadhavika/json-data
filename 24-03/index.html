@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            padding: 25px;
+            background-image: linear-gradient(to bottom right, brown, rgb(240, 123, 123));
+            text-align: center;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 25px;
+        }
+        .item{
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 3px 3px 4px pink;
+            border-radius: 6px;
+        }
+        .item>*{
+            padding: 6px;
+            margin: 4px;
+        }
+        button{
+            padding: 10px;
+            margin-top: 10px;
+            background-color: salmon;
+            border: none;
+            border-radius: 6px;
+        }
+        .container img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: contain;
+        }
+        .drop{
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <select name="" class="drop">
+        
+    </select>
+    <div class="container">
+
+    </div>
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
